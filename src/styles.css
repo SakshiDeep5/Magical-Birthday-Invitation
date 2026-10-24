@@ -426,6 +426,51 @@
   }
 }
 
+/* ────────────────────────────────────
+ * Opening Sequence — Magical Scene
+ * ──────────────────────────────────── */
+
+@keyframes opening-rainbow-shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Responsive adjustments for the opening scene */
+.opening-scene {
+  /* Prevent horizontal overflow on all viewports */
+  overflow-x: hidden;
+}
+
+.opening-teddy {
+  /* Smooth rendering for the teddy bear image */
+  image-rendering: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.opening-cta-btn {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.opening-cta-btn:hover {
+  box-shadow:
+    0 16px 40px -8px rgba(200, 150, 200, 0.6),
+    0 0 50px rgba(200, 150, 220, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    inset 0 -4px 10px rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Mobile adjustments: scale down side balloons */
+@media (max-width: 640px) {
+  .opening-scene [style*="left: 1%"][style*="bottom: 8%"],
+  .opening-scene [style*="right: 1%"][style*="bottom: 8%"] {
+    opacity: 0.7;
+  }
+}
+
 /* Wishes wall scrollbar */
 .wishes-scroll {
   scrollbar-width: thin;
