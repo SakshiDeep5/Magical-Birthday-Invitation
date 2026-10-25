@@ -3,14 +3,12 @@
 
 import birthdayGirl from "@/Assets/birthday-girl.png";
 import birthdayGirlVideo from "@/Assets/girl-video.mp4";
-import g1 from "@/Assets/unicorn-party.png";
 import g2 from "@/Assets/first-smile.jpg";
 import g3 from "@/Assets/cake-face.jpg";
 import g4 from "@/Assets/bubble-bath.jpg";
 import g5 from "@/Assets/beach-day.png";
 import g6 from "@/Assets/ballet-class.png";
 import g7 from "@/Assets/painting-fun.jpg";
-import g8 from "@/Assets/puppy-love.png";
 import g9 from "@/Assets/fairy-dress.jpg";
 import g10 from "@/Assets/sleepy-hug.jpg";
 import newBorn from "@/Assets/Newborn-Baby.jpg";
@@ -62,14 +60,12 @@ export const invitation = {
   ],
 
   gallery: [
-    { src: g1, caption: "Magical unicorn party!" },
     { src: g2, caption: "That very first smile" },
     { src: g3, caption: "Cake face champion" },
     { src: g4, caption: "Bubble adventures" },
     { src: g5, caption: "Toes in the sand" },
     { src: g6, caption: "Twirls & tutus" },
     { src: g7, caption: "Little Picasso" },
-    { src: g8, caption: "Best furry friend" },
     { src: g9, caption: "Fairy in the garden" },
     { src: g10, caption: "Sleepy cuddles" },
   ],
