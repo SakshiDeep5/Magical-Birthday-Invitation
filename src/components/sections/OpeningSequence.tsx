@@ -7,6 +7,7 @@ import bottomRightImg from "@/Assets/preview-bottom-right.png";
 import cloudCurtainLeft from "@/Assets/cloud-curtain-left.png";
 import cloudCurtainRight from "@/Assets/cloud-curtain-right.png";
 import cloudFluffy from "@/Assets/cloud-fluffy.png";
+import cloudFluffy1 from "@/Assets/cloud-fluffy1.png";
 import cloudMidLeft from "@/Assets/cloud-mid-left.png";
 import cloudMidRight from "@/Assets/cloud-mid-right.png";
 import cloudTopLeft from "@/Assets/cloud-top-left.png";
@@ -310,7 +311,7 @@ export function OpeningSequence({ onEnter }: { onEnter: () => void }) {
       {/* Soft continuous cloud pillow blending the bottom center floor */}
       <div className="pointer-events-none absolute bottom-0 inset-x-0 z-[20] flex justify-center overflow-hidden">
         <motion.img
-          src={cloudFluffy}
+          src={cloudFluffy1}
           alt=""
           className="w-[115%] max-w-[1300px] h-[75px] sm:h-[95px] md:h-[120px] object-cover opacity-85"
           animate={{ y: [0, -3, 0] }}
